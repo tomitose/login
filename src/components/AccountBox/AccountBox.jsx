@@ -135,16 +135,16 @@ const AccountBox = (props) => {
           />
           {active === "signin" && (
             <HeaderContainer>
-              <HeaderText>Welcome !</HeaderText>
+              <HeaderText>Welcome </HeaderText>
               <HeaderText>Back</HeaderText>
-              <SmallText>Please sign in to continue!</SmallText>
+              <SmallText>Please sign in to continue !</SmallText>
             </HeaderContainer>
           )}
           {active === "signup" && (
             <HeaderContainer>
               <HeaderText>Create </HeaderText>
               <HeaderText>Account</HeaderText>
-              <SmallText>Please sign-up to continue!</SmallText>
+              <SmallText>Please sign-up to continue !</SmallText>
             </HeaderContainer>
           )}
         </TopContainer>
